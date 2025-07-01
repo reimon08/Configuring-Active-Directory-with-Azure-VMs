@@ -128,10 +128,29 @@ https://github.com/user-attachments/assets/d1ad9717-5351-40ee-b05f-24cdf680cc88
 
 <p>While logged in as jane_admin, open PowerShell ISE as an administrator. Create a new file, then paste the contents of the user creation script into it.
 
+This script will create 10,000 employee user accounts and store them in the _EMPLOYEES Organizational Unit (OU).
+
 ### [User Creation Script](https://github.com/reimon08/Pwrshell/blob/main/Generate-Names-Create-Users.ps1)
 
 
 Once it’s in, run the script and you’ll see the accounts being created in real time. When it’s done, open up Active Directory Users and Computers (ADUC) and you should see all the new accounts inside the _EMPLOYEES OU.</p>
+
+
+
+https://github.com/user-attachments/assets/d1430af8-21c7-417c-bc64-cf7f015d038f
+
+<p> If you take a look at ADUC and go to the _EMPLOYEES OU, you’ll see the users being added in real time as the script runs.</p>
+
+<p>You can also stop the script whenever you feel like you’ve added enough users, just hit the Stop button in PowerShell ISE and it’ll pause right there.</p>
+
+
+
+https://github.com/user-attachments/assets/a079d2d3-e047-4979-8c70-50b3426c8580
+
+<h2>🧠 Foundation Set: AD Ready for GPO and More</h2>
+
+<p>That concludes this project! Next, I’ll be using this setup for another project focused on Group Policy and account management. Thanks for following along, I hope this helped you get comfortable with setting up Active Directory in Azure.</p>
+
 
 
 
