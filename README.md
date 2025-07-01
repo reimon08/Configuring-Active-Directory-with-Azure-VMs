@@ -128,7 +128,7 @@ https://github.com/user-attachments/assets/d1ad9717-5351-40ee-b05f-24cdf680cc88
 
 <p>While logged in as jane_admin, open PowerShell ISE as an administrator. Create a new file, then paste the contents of the user creation script into it.
 
-[Click here to view the documentation]([https://example.com/docs](https://github.com/reimon08/Pwrshell))
+### [User Creation Script](https://github.com/reimon08/Pwrshell/blob/main/Generate-Names-Create-Users.ps1)
 
 
 Once it’s in, run the script and you’ll see the accounts being created in real time. When it’s done, open up Active Directory Users and Computers (ADUC) and you should see all the new accounts inside the _EMPLOYEES OU.</p>
